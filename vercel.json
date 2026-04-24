@@ -1,9 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/index.cjs", "use": "@vercel/node" }
-  ],
-  "routes": [{ "src": "/(.*)", "dest": "/api/index.cjs" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
   "functions": {
     "api/index.cjs": {
       "memory": 1024,
