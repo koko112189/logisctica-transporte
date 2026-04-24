@@ -1,0 +1,6 @@
+export enum StopStatus {
+  PENDING = 'PENDING',
+  ARRIVED = 'ARRIVED',
+  COMPLETED = 'COMPLETED',
+  SKIPPED = 'SKIPPED',
+}

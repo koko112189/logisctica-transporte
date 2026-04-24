@@ -1,0 +1,7 @@
+export enum FuelLevel {
+  FULL = 'FULL',
+  THREE_QUARTERS = 'THREE_QUARTERS',
+  HALF = 'HALF',
+  ONE_QUARTER = 'ONE_QUARTER',
+  EMPTY = 'EMPTY',
+}

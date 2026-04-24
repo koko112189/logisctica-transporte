@@ -1,0 +1,8 @@
+export enum IncidentType {
+  ACCIDENT = 'ACCIDENT',
+  MECHANICAL = 'MECHANICAL',
+  DELAY = 'DELAY',
+  THEFT = 'THEFT',
+  WEATHER = 'WEATHER',
+  OTHER = 'OTHER',
+}

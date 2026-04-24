@@ -1,0 +1,26 @@
+# Dependencias y build
+node_modules/
+dist/
+build/
+
+# Entorno (nunca subir secretos)
+.env
+.env.*
+!.env.example
+
+# Logs y cobertura
+logs/
+*.log
+npm-debug.log*
+coverage/
+.nyc_output/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
